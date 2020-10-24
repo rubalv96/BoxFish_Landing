@@ -1,0 +1,97 @@
+/* Header component*/
+
+/*Logo*/
+#logoImg{
+    height: 50px;
+    width: 43px;
+    margin-right: 9.92px;
+}
+
+#containerLogo{
+    margin-left: 44px;
+    margin-top: 17px;
+    margin-bottom: 17px;
+    display: flex;
+}
+
+
+#titleLogo{
+
+
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-block-end: 0em;
+
+}
+
+#subtitleLogo{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 13.31px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+/* info@boxfish.studio */
+
+#mailItem{
+    margin-left: 47.8px;
+    margin-top: 34px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    /* ACCENT */
+
+    color: #4081FF;
+}
+
+#tlfItem{
+    margin-left: 21.6px;
+    margin-top: 34px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14.52px;
+    /* ACCENT */
+
+    color: #4081FF;
+}
+
+#headerContainer{
+    border: 1px solid #E5E5E5;
+    display: flex;
+}
+
+#menuContainer{
+    display: flex;
+    position: absolute;
+    right: 0px;
+
+}
+
+#menuItem{
+    position: relative;
+    margin-top: 33px;
+    margin-right: 43.2px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    /* ACCENT */
+
+    color: #4081FF;
+}
