@@ -1,3 +1,7 @@
+body{
+    overflow-x: hidden;
+}
+
 /* Header component*/
 
 /*Logo*/
@@ -72,6 +76,12 @@
 #headerContainer{
     border: 1px solid #E5E5E5;
     display: flex;
+    position: absolute;
+    width: 100%;
+    height: 84px;
+    left: 0px;
+    top: 0px;
+
 }
 
 #menuContainer{
@@ -94,4 +104,101 @@
     /* ACCENT */
 
     color: #4081FF;
+}
+
+#heroContainer{
+    /* HERO */
+    /*background-color: green;*/
+    position: absolute;
+    left: 0px;
+    top: 82px;
+    width: 100%;
+    height: 789px;
+}
+
+#heroWrapper{
+    position: absolute;
+    max-width: 100%;
+    height: 683px;
+    left: 43px;
+    top: 56px;
+    right: 42px;
+    bottom: 47px;
+    /*background-color: coral;*/
+}
+
+#slogan{
+    /*position: absolute;*/
+    width: 52.1%;
+    height: 88px;
+    margin-top: 212px;
+    /*background-color: aqua;*/
+
+}
+
+.sloganText{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    margin-bottom: 20px;
+    /* identical to box height */
+
+
+    /* TEXT */
+
+    color: #333333;
+}
+.red{
+    color: rgb(255, 92, 92);
+}
+
+.passion{
+    margin-right: 45px;
+
+}
+#sloganSubtext{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+
+
+    /* SUBTEXT */
+
+    color: #999999;
+}
+
+#mainImage{
+
+    position: absolute;
+    width: 679px;
+    height: 427px;
+    right: 0px;
+    top: 0px;
+    /*background-color: red;*/
+}
+
+#customerContainer{
+    position: absolute;
+    bottom: 0px;
+    /*background-color: yellow;*/
+    width: 71.2%;
+    height: 40px;
+    left: 14.565%;
+    right: 17.49%;
+    display: flex;
+    justify-content: space-between;
+    /*background: #B0AFAF;*/
+    z-index: 1;
+}
+
+#customerLogo{
+    /*background-color: purple;*/
+    width: 40px;
+    height: 40px;
+    opacity: 0.3;
 }
