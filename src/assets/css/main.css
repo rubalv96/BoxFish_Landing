@@ -228,6 +228,10 @@ body{
     height: 427px;
 }
 
+.footerMobileContainer{
+    display: none;
+}
+
 @media (max-width: 900px){
 
 
@@ -348,6 +352,42 @@ body{
     .image{
         width: 332px;
         height: 209px;
+    }
+
+    #customerContainer{
+        display: none;
+    }
+
+    .customerMobileContainer{
+
+        width: 100%;
+        height: 40px;
+
+        display: flex;
+        justify-content: space-between;
+        align-self: center;
+        height: 50px;
+        /*background-color: purple;*/
+    }
+
+    .footerMobileContainer{
+        max-width: 100%;
+        height: 184px;
+        /*background-color: yellow;*/
+        margin-top: 121px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 34px;
+
+    }
+
+    .customerLogo{
+        height: 30px;
+
     }
 
 

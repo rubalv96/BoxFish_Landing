@@ -10,10 +10,12 @@ import fake3 from "../assets/images/fake3.png";
 import fake4 from "../assets/images/fake4.png";
 import fake5 from "../assets/images/fake5.png";
 import fake6 from "../assets/images/fake6.png";
+import {FooterMobile} from "./FooterMobile";
 export class Footer extends React.Component {
   render(){
 
     return (
+        <>
      <div id="customerContainer">
         <CustomerLogo
             image={fake1}
@@ -35,6 +37,13 @@ export class Footer extends React.Component {
          />
 
          </div>
+            <FooterMobile/>
+
+
+
+
+            </>
+
     );
   }
 }
