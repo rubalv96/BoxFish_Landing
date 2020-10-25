@@ -1,6 +1,6 @@
 import React from "react";
 import {CustomerLogo} from "./CustomerLogo";
-import {ContactItem} from "./ContactItem";
+import {ContactInfo} from "./ContactInfo";
 import Logo from "../assets/images/path22.svg";
 import '../assets/css/main.css';
 import {MenuItem} from "./MenuItem";

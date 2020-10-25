@@ -1,6 +1,6 @@
 import React from "react";
 import {CompanyLogo} from "./CompanyLogo";
-import {ContactItem} from "./ContactItem";
+import {ContactInfo} from "./ContactInfo";
 import Logo from "../assets/images/path22.svg";
 import '../assets/css/main.css';
 import {MenuItem} from "./MenuItem";
@@ -15,11 +15,11 @@ export class Header extends React.Component {
           title={"BOXFISH"}
           subtitle={"studio"}
         />
-        <ContactItem
+        <ContactInfo
           type= "mail"
           text="info@boxfish.studio"
         />
-        <ContactItem
+        <ContactInfo
           type= "telephone"
           text="+34 910 615212"
         />
@@ -29,7 +29,9 @@ export class Header extends React.Component {
           <MenuItem name={"Career"}/>
           <MenuItem name={"Work"}/>
           <MenuItem name={"Contact"}/>
+          <MenuItem type="mobile" name={"Menu"}/>
         </div>
+
       </div>
     );
   }

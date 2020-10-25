@@ -8,7 +8,7 @@ export class CompanyLogo extends React.Component {
 
   render(){
     return (
-      <div id="containerLogo">
+      <div className="containerLogo">
         <img id="logoImg" src={this.props.imgSrc}/>
           <div >
               <p id="titleLogo">{this.props.title}</p>

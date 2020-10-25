@@ -9,8 +9,8 @@ export class CustomerLogo extends React.Component {
 
   render(){
     return (
-        <div id="customerLogo">
-          <img src={this.props.image}/>
+        <div >
+          <img id="customerLogo"src={this.props.image}/>
         </div>
     );
   }

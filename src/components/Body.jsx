@@ -13,11 +13,13 @@ export class Body extends React.Component {
         <div id={"heroContainer"}>
           <div id={"heroWrapper"}>
             <div id={"slogan"}>
-              <span className="sloganText">Engineering with </span><span className={"sloganText red"}> love</span><span className={"sloganText"}> and </span> <span className={"sloganText red passion"}>passion</span>
+                <div className={"sloganTextContainer"}>
+                    <span className="sloganText">Engineering with </span><span className={"sloganText red"}> love</span><span className={"sloganText"}> and </span> <span className={"sloganText red"}>passion</span>
+                </div>
               <p id="sloganSubtext">High-quality solutions for emerging technologies and industries</p>
             </div>
-            <div id={"mainImage"} >
-              <img src={bikeImage}/>
+            <div className={"mainImage"} >
+              <img className={"image"} src={bikeImage} />
             </div>
           <Footer/>
           </div>
