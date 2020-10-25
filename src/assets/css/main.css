@@ -125,9 +125,10 @@ body{
     right: 42px;
     bottom: 47px;
 
-    background-color: coral;
-    /*display: flex;*/
-    /*justify-content: space-between;*/
+    /*background-color: coral;*/
+    display: flex;
+    justify-content: space-between;
+
 }
 
 #slogan{
@@ -182,9 +183,11 @@ body{
     top: 0px;
     margin-right: 0px;
     /*left:75px;*/
-    background-color: red;
+    /*background-color: red;*/
     align-self: flex-start;
     justify-content: right;
+
+
 
 }
 
@@ -225,7 +228,7 @@ body{
     height: 427px;
 }
 
-@media (max-width: 970px){
+@media (max-width: 900px){
 
 
     .containerLogo{
@@ -323,6 +326,7 @@ body{
         left: 20px;
         right: 20px;
         flex-wrap: wrap;
+        display: block;
     }
 
     #heroContainer{
@@ -330,10 +334,12 @@ body{
     }
     .mainImage{
         /*background-color: yellow;*/
+        display: block;
         width: 332px;
         height: 209px;
 
         margin-top: 62px;
+        /*margin-top: 0px;*/
         margin-right: auto;
         margin-left: auto;
 
