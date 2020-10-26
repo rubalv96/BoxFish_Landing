@@ -1,5 +1,5 @@
 import React from "react";
-import '../assets/css/main.css';
+import '../assets/css/main.scss';
 import fake1 from "../assets/images/fake1.png";
 
 export class CustomerLogo extends React.Component {

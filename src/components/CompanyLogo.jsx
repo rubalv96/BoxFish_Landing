@@ -1,5 +1,5 @@
 import React from "react";
-import '../assets/css/main.css';
+import '../assets/css/main.scss';
 
 export class CompanyLogo extends React.Component {
   constructor(props){

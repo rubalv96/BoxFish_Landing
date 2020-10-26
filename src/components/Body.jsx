@@ -1,5 +1,5 @@
 import React from "react";
-import '../assets/css/main.css';
+import '../assets/css/main.scss';
 import bikeImage from '../assets/images/bike.png';
 import {Footer} from "../components/Footer";
 

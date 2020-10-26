@@ -2,7 +2,7 @@ import React from "react";
 import {CompanyLogo} from "./CompanyLogo";
 import {ContactInfo} from "./ContactInfo";
 import Logo from "../assets/images/path22.svg";
-import '../assets/css/main.css';
+import '../assets/css/main.scss';
 import {MenuItem} from "./MenuItem";
 
 export class ExtraHeader extends React.Component {

@@ -2,7 +2,7 @@ import React from "react";
 import {CustomerLogo} from "./CustomerLogo";
 import {ContactInfo} from "./ContactInfo";
 import Logo from "../assets/images/path22.svg";
-import '../assets/css/main.css';
+import '../assets/css/main.scss';
 import {MenuItem} from "./MenuItem";
 import fake1 from "../assets/images/fake1.png";
 import fake2 from "../assets/images/fake2.png";
