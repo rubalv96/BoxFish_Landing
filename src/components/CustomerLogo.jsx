@@ -1,6 +1,5 @@
 import React from "react";
 import '../assets/css/main.scss';
-import fake1 from "../assets/images/fake1.png";
 
 export class CustomerLogo extends React.Component {
   constructor(props){
@@ -9,9 +8,9 @@ export class CustomerLogo extends React.Component {
 
   render(){
     return (
-        <div >
-          <img id="customerLogo"src={this.props.image}/>
-        </div>
+      <div >
+        <img id="customerLogo" src={this.props.image} alt={"Customer logo image"}/>
+      </div>
     );
   }
 }
