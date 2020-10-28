@@ -1,6 +1,6 @@
 
 html,body{
-    background: var(--bground-color);
+    background: var(--bground-color) !important;
     overflow-x: hidden;
 
 }
@@ -42,6 +42,7 @@ html,body{
     text-align: left;
     margin-block-end: 0;
     color: var(--logo-text-color);
+    margin-top: 11px;
 }
 
 #subtitleLogo{
@@ -101,7 +102,7 @@ html,body{
     font-weight: 500;
     font-size: 14px;
     line-height: 17px;
-    color: #4081FF;
+    color: #4081FF !important;
 }
 
 //Body Component
@@ -169,7 +170,7 @@ html,body{
 
 .image{
     width: 679px;
-    height: 427px;
+    height:auto;
 }
 
 

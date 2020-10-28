@@ -1,8 +1,11 @@
 import React from "react";
 import '../assets/css/main.scss';
 import bikeImage from '../assets/images/bike.png';
+import iotaImage from '../assets/images/iota.png';
+import carImage from '../assets/images/car.png';
 import {Footer} from "../components/Footer";
 import {DarkModeToggle} from "./DarkModeToggle";
+import Carousel from 'react-bootstrap/Carousel';
 
 export class Body extends React.Component {
   constructor(props){
@@ -17,7 +20,7 @@ export class Body extends React.Component {
 
           {/* Dark/Ligh mode Toggle*/}
           <DarkModeToggle
-              toggleFunction={this.props.toggleFunction}
+            toggleFunction={this.props.toggleFunction}
           />
           {/* Slogan*/}
           <div id={"slogan"}>
@@ -27,9 +30,33 @@ export class Body extends React.Component {
             <p id="sloganSubtext">High-quality solutions for emerging technologies and industries</p>
           </div>
 
-          {/* Main image*/}
+          {/* Images Carousel */}
           <div className={"mainImage"} >
-            <img className={"image"} src={bikeImage} alt={"Bike image"}/>
+            <Carousel controls={false} indicators={false}>
+              <Carousel.Item>
+                <img
+                  className="image"
+                  src={bikeImage}
+                  alt="Bike image"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="image"
+                  src={carImage}
+                  alt="Lookiero App image"
+                />
+
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="image"
+                  src={iotaImage}
+                  alt="IOTA website image"
+                />
+
+              </Carousel.Item>
+            </Carousel>
           </div>
 
           {/* Footer with customer logos*/}

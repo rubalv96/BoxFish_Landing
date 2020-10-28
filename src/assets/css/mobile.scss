@@ -21,10 +21,24 @@
     margin-right: 20px;
     margin-top: 36.52px;
   }
+  .menuItem .dropdown{
+    margin-top: 5px !important;
+  }
   .mobile{
     display: inline-block;
   }
-
+  #dropdown-item-button{
+    position: absolute;
+    left: -90px;
+    top: 35px;
+    width: 75px;
+    color:transparent;
+    background-color: transparent;
+    border: 0px;
+  }
+  #dropdown-item-button:active{
+    border: 0px;
+  }
   .burgerMenu{
     width: 16px;
     height: 9.06px;
@@ -68,6 +82,8 @@
     color: #4081FF;
     margin-left: 16px;
     margin-right: 16px;
+    margin-top: 8px;
+
   }
 
 //Body Component
@@ -103,7 +119,7 @@
     margin-right: 20px;
   }
 
-  // Bike image
+  // Carousel images
   .mainImage{
     display: block;
     width: 332px;
@@ -119,6 +135,7 @@
     height: 209px;
   }
 
+  //Footer (customer logos)
   #customerContainer{
     display: none;
   }
@@ -147,6 +164,7 @@
     filter: invert(100%);
   }
 
+  // Dark/Light mode toggle
   .toggleWrapper {
     top: 35px;
     right: -25px;

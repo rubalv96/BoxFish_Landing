@@ -60,12 +60,13 @@ export class App extends React.Component {
     return (
 
       <div>
-        <Header
-          toggleFunction = {this.toggleStyle}
-        />
+        <Header/>
+
+        {/* Only visible in Mobile version */}
         <ExtraHeader/>
+        
         <Body
-            toggleFunction = {this.toggleStyle}
+          toggleFunction = {this.toggleStyle}
         />
       </div>
 

@@ -16,7 +16,7 @@ export class ContactInfo extends React.Component {
     }
 
     return (
-      <p id={id} style={{cursor: "pointer"}}>{this.props.text}</p>
+      <p id={id} style={{cursor:"pointer"}}>{this.props.text}</p>
     );
   }
 }
